@@ -1,14 +1,5 @@
 
-nav, article, aside, footer section {
-    margin: 0 auto;
-    width: 900px;
-  }
-  
-  nav {
-    margin-top: 25px;
-  }
-  
-  #logo {
+    #logo {
     float: left;
     padding-bottom: 25px;
     color: black;
@@ -55,4 +46,17 @@ nav, article, aside, footer section {
     font-family: 'Oswald', sans-serif;
     font-size: 2.5em;
   }
+
+  section hr {
+    border-bottom: 1px solid #eee;
+    height: 0;
+  }
   
+  
+  footer section p{
+    padding: 50px 0;
+    line-height: 1.5em;
+    text-align: center;
+    color: #aaa;
+  }
+    
